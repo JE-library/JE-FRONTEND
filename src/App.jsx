@@ -5,6 +5,8 @@ import Books from './pages/Books'
 import BookDetails from './pages/BookDetails'
 import BookForm from './pages/BookForm'
 import { createBrowserRouter,RouterProvider } from 'react-router'
+import Contacts from './pages/Contacts'
+
 
 
 function App() {
@@ -25,6 +27,10 @@ function App() {
     path: "/add-book",
     element: <BookForm/>
   },
+  {
+    path: "/about-us",
+    element: <Contacts/>
+  }
   
 
  ])

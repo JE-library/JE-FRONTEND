@@ -1,28 +1,32 @@
 import { Link } from "react-router";
 function Navbar() {
   return (
-    <nav className="flex flex-row justify-between items-center bg-black text-blue-200">
-      <span>RECIPE.</span>
+    <nav className="flex flex-row justify-between items-center bg-black text-amber-50 ">
+      <span>JE LIBRARY.</span>
 
       <ul className="flex flex-row gap-x-[60px]">
       
   <li>
 
-    <Link to></Link><a href="/">Home</a>
+    <Link to="/">Home</Link>
   </li>
   <li>
-    <a href="/books">Books</a>
+    <Link to="/books">Books</Link>
   </li>
   <li>
-    <a href="/add-book">Form</a>
+    <Link to="/add-book">Form</Link>
+  
   </li>
   <li>
-    <a href="/books-details">Details</a>
+    <Link to="/books-details">Details</Link>
+  </li>
+  <li>
+    <Link to="/books-details">Contacts</Link>
   </li>
 </ul>
     
 
-      <button className="bg-red-700 text-amber-50 rounded-2xl py-[10px] px-[20px]">SIGN UP</button>
+      <button className="bg-red-700 text-amber-50 rounded-2xl  py-[10px] px-[10px]">SIGN UP</button>
       <div>
 
       </div>
