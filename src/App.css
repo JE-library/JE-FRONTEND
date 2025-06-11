@@ -1,4 +1,63 @@
+#hero {
+  background-image: url(./assets/spice.webp);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
-#hero{
-    background-image: url(./assets/spice.webp);
+#book-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#book-details img {
+  height: 450px;
+  justify-content: center;
+}
+
+.details p {
+  padding-top: 10px;
+}
+
+#bookform {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#bookform img {
+  height: 450px;
+  justify-content: center;
+}
+
+#myForm {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  /* border-color: black; */
+  /* background-color: whitesmoke; */
+  border-radius: 5px;
+  border: 2px solid grey;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+
+#myForm h3 {
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+#myForm input {
+  justify-content: center;
+  
+}
+
+#myForm p {
+  justify-content: center;
+  padding-bottom: 19px;
+}
+
+#myForm button {
+    background-color: 
 }
