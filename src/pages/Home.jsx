@@ -1,9 +1,6 @@
 import React from 'react'
 import PagesLayout from '../Layouts/PagesLayout'
 
-
-
-
 function Home () {
   return ( <PagesLayout>
     <section id='hero' className='bg-center h-180 ' >
