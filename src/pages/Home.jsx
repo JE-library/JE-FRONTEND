@@ -1,5 +1,6 @@
 import React from 'react'
 import PagesLayout from '../Layouts/PagesLayout' 
+import Slider from '../components/Slider';
 
 
 function Home () {

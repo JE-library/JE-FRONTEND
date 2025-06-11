@@ -1,13 +1,17 @@
-import React from "react";
+import React from 'react'
+import picture3Img from "../assets/notebook.jpg",
 import PagesLayout from "../Layouts/PagesLayout";
-import picture2Img from "../assets/books1.jpg";
 
-function BookForm() {
+const EditForm = () => {
   return (
     <PagesLayout>
       <div id="message" class="message"></div>
 
       <section id="bookform">
+         <div>
+          <img src={picture3Img} alt="" />
+        </div>
+
         <div>
           <form id="myForm">
             <h3>Add A New Book</h3>
@@ -36,12 +40,10 @@ function BookForm() {
           </form>
         </div>
 
-        <div>
-          <img src={picture2Img} alt="" />
-        </div>
+       
       </section>
     </PagesLayout>
-  );
+  )
 }
 
-export default BookForm;
+export default EditForm
