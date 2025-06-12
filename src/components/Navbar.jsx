@@ -20,9 +20,6 @@ function Navbar() {
   <li>
     <Link to="/books-details">Details</Link>
   </li>
-  <li>
-    <Link to="/books-details">Contacts</Link>
-  </li>
 </ul>
     
 

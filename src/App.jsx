@@ -20,7 +20,7 @@ function App() {
     element:<Books/>
   },
   {
-    path: "/books-details",
+    path: "/book-details/:id",
     element: <BookDetails/>
   },
   {

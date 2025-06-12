@@ -1,5 +1,5 @@
 #hero {
-  background-image: url(./assets/spice.webp);
+  
   height: 100vh;
   background-repeat: no-repeat;
   background-position: center;
@@ -55,5 +55,5 @@
 
 #myForm p {
   justify-content: center;
-  padding-bottom: 19px;
+  padding-bottom: 19
 }
