@@ -17,9 +17,7 @@ function Navbar() {
     <Link to="/add-book">Form</Link>
   
   </li>
-  <li>
-    <Link to="/books-details">Details</Link>
-  </li>
+
 </ul>
     
 

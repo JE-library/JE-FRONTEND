@@ -1,3 +1,4 @@
+
 #hero {
   
   height: 100vh;
@@ -16,6 +17,7 @@
 
 .details p {
   padding-top: 10px;
+  font-size: 20px;
 }
 
 #bookform {
@@ -25,6 +27,7 @@
 #bookform img {
   height: 450px;
   justify-content: center;
+  height: 100vh;
 }
 
 #myForm {
@@ -32,13 +35,14 @@
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   /* border-color: black; */
   /* background-color: whitesmoke; */
   border-radius: 5px;
   border: 2px solid grey;
   padding: 1.5rem;
   border-radius: 8px;
+  height: 100vh;
 }
 
 

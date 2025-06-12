@@ -1,5 +1,5 @@
 import React from 'react'
-import picture3Img from "../assets/notebook.jpg",
+import picture3Img from "../assets/notebook.jpg";
 import PagesLayout from "../Layouts/PagesLayout";
 
 const EditForm = () => {
