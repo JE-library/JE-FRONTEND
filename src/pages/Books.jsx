@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router";
-import PagesLayout from "../Layouts/PagesLayout";
+import PagesLayout from "../layouts/PagesLayout";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import logo from "../assets/LOGO.png";
