@@ -1,6 +1,6 @@
 import React from "react";
 import picture3Img from "../assets/reading.jpg";
-import PagesLayout from "../Layouts/PagesLayout";
+import PagesLayout from "../layouts/PagesLayout";
 import { useNavigate, useParams } from "react-router";
 import { useEffect, useState } from "react";
 import axios from "axios";
