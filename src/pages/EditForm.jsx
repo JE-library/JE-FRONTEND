@@ -5,6 +5,9 @@ import { useNavigate, useParams } from "react-router";
 import { useEffect, useState } from "react";
 import axios from "axios";
 
+import logo from "../assets/LOGO.png";
+
+
 const EditForm = () => {
   const navigate = useNavigate();
 
