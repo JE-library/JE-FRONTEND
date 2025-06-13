@@ -1,5 +1,5 @@
 import React from "react";
-import PagesLayout from "../Layouts/PagesLayout";
+import PagesLayout from "../layouts/PagesLayout";
 import logo from "../assets/LOGO.png";
 
 function Home() {
