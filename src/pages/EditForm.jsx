@@ -1,6 +1,7 @@
 import React from 'react'
 import picture3Img from "../assets/notebook.jpg";
 import PagesLayout from "../Layouts/PagesLayout";
+import logo from "../assets/LOGO.png";
 
 const EditForm = () => {
   return (
