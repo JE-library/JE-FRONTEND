@@ -35,7 +35,7 @@ const BookDetails = () => {
     <PagesLayout>
       {
         loading? <p>Loading...</p> :
-        <section id="book-details" className="grid grid-cols-[1fr 1fr]">
+        <section id="book-details">
         <div className="image">
           <img
             src={book.image}

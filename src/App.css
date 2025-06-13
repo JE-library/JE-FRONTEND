@@ -6,19 +6,22 @@
   background-position: center;
 }
 
-#book-details {
+/* #book-details {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 #book-details img {
   height: 450px;
   justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+  object-fit: contain;
 }
 
 .details p {
   padding-top: 10px;
   font-size: 20px;
-}
+} */
 
 #bookform {
   display: grid;
@@ -28,6 +31,8 @@
   height: 450px;
   justify-content: center;
   height: 100vh;
+  border-radius: 10px;
+  padding: 20px;
 }
 
 #myForm {
@@ -35,20 +40,19 @@
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  padding-bottom: 40px;
+  /* padding-bottom: 40px; */
   /* border-color: black; */
-  /* background-color: whitesmoke; */
-  border-radius: 5px;
+  background-color: whitesmoke;
   border: 2px solid grey;
-  padding: 1.5rem;
-  border-radius: 8px;
+  padding: 15px;
+  border-radius: 10px;
   height: 100vh;
 }
 
 
 #myForm h3 {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 30px;
   padding-bottom: 15px;
 }
 
@@ -61,3 +65,11 @@
   justify-content: center;
   padding-bottom: 19
 }
+
+/* #myForm button {
+  padding-top: 8px;
+} */
+
+/* #button {
+  padding-top: 8px;
+} */

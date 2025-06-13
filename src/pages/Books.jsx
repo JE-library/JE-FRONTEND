@@ -85,6 +85,12 @@ function Books() {
                     >
                       Delete
                     </button>
+                    <button
+                      className="mt-1 px-4 py-2 bg-red-400 text-white rounded-lg w-full"
+                      onClick={() => navigate(`/edit-book/${book.id}`)}
+                    >
+                      Edit Details
+                    </button>
                   </div>
                 </div>
               </div>
