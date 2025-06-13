@@ -8,7 +8,6 @@ import EditForm from './pages/EditForm'
 import BookDetails from './pages/BookDetails'
 
 
-
 function App() {
  const router = createBrowserRouter([
   {
@@ -28,7 +27,7 @@ function App() {
     element: <BookDetails/>
   },
   {
-    path: "/edit-book",
+    path: "/edit-book/:id",
     element: <EditForm />
   }
   
