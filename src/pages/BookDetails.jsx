@@ -1,5 +1,5 @@
 import { useParams } from "react-router";
-import PagesLayout from "../Layouts/PagesLayout";
+import PagesLayout from "../layouts/PagesLayout";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import logo from "../assets/LOGO.png";
