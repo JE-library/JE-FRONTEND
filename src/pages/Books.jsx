@@ -121,23 +121,24 @@ function Books() {
                   </p>
                   <div className="pt-2 flex justify-between">
                     <button
-                      className="bg-[rgb(0,151,189)] px-2 py-[0.1rem] rounded text-[0.9rem] font-medium text-white hover:opacity-80 cursor-pointer"
+                      className="min-w-[70px] bg-[rgb(0,151,189)] px-2 py-[0.1rem] rounded text-[0.9rem] font-medium text-white hover:opacity-80 cursor-pointer"
                       onClick={() => navigate(`/book-details/${book.id}`)}
                     >
-                      View Details
+                      View 
                     </button>
                     <button
-                      className="border border-[crimson] bg-[rgb(255,235,229)] px-2 py-[0.1rem] rounded-[0.3rem] text-[0.9rem] font-medium text-[crimson] hover:bg-[crimson] hover:text-[rgb(255,235,229)] hover:opacity-80 cursor-pointer"
-                      onClick={() => handleDelete(book.id)}
-                    >
-                      Delete Book
-                    </button>
-                    <button
-                      className="mt-1 px-4 py-2 bg-red-400 text-white rounded-lg w-full"
+                      className="min-w-[70px] bg-[rgb(0,151,189)] px-2 py-[0.1rem] rounded text-[0.9rem] font-medium text-white hover:opacity-80 cursor-pointer"
                       onClick={() => navigate(`/edit-book/${book.id}`)}
                     >
-                      Edit Details
+                      Edit 
                     </button>
+                    <button
+                      className="min-w-[70px] border border-[crimson] bg-[rgb(255,235,229)] px-2 py-[0.1rem] rounded-[0.3rem] text-[0.9rem] font-medium text-[crimson] hover:bg-[crimson] hover:text-[rgb(255,235,229)] hover:opacity-80 cursor-pointer"
+                      onClick={() => handleDelete(book.id)}
+                    >
+                      Delete 
+                    </button>
+                    
                   </div>
                 </div>
               </div>

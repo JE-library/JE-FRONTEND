@@ -26,11 +26,11 @@ function Home() {
           </a>
         </div>
 
-        {/* <div className="absolute w-full top-50 left-0 z-20 text-white text-center mt-1 text-2xl  ">
-          <h3 className=" italic font-bold  text-6xl leading-tight ">
+        <div className="overly">
+          <h3 className=" h3 ">
             Welcome to <br /> JE Library
           </h3>
-        </div> */}
+        </div>
 
         {/* <div className="absolute bottom-6 right-6 z-20 text-black max-w-md">
           <h2 className="italic text-5xl leading-tight ">

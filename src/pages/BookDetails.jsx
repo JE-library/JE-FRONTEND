@@ -5,7 +5,6 @@ import axios from "axios";
 import logo from "../assets/LOGO.png";
 
 const BookDetails = () => {
-  //extract the id from the router params
   const params = useParams();
   console.log(params);
 
@@ -34,21 +33,10 @@ const BookDetails = () => {
 
   return (
     <PagesLayout>
-      {
-        loading? <p>Loading...</p> :
-        <section id="book-details">
-        <div className="image">
-          <img
-            src={book.image}
-            alt="book-image"
-            className="h-40 w-full object-cover"
-          />
-
       {loading ? (
         <div className="min-h-[90vh] flex flex-col items-center">
           <img src={logo}></img>
           <p className="text-2xl font-semibold">Loading....</p>
-
         </div>
       ) : (
         <section

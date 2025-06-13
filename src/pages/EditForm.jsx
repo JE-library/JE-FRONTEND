@@ -217,7 +217,7 @@ const EditForm = () => {
               type="Submit"
               className="w-[150px] bg-gray-600 text-white mt-[30px] ml-[420px] p-[10px] justify-center rounded-[15px] hover:bg-emerald-500 transition duration-200"
             >
-              Add Book
+              Edit Book
             </button>
           </form>
         </div>
