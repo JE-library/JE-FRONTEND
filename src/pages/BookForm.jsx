@@ -1,6 +1,7 @@
 import React from "react";
 import PagesLayout from "../Layouts/PagesLayout";
 import picture2Img from "../assets/books1.jpg";
+import logo from "../assets/LOGO.png";
 
 function BookForm() {
   return (

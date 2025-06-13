@@ -3,7 +3,7 @@ function Footer() {
     <footer className="bg-gray-900 text-white py-10">
       <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-sm">
         <div>
-          <h3 className="text-lg font-semibold mb-3">📍 Location</h3>
+          <h3 className="text-lg font-semibold mb-3 text-amber-300" > Location</h3>
           <p>123 Book Street</p>
           <p>Accra, Ghana</p>
           <p>Email: info@bookstore.com</p>
@@ -20,7 +20,7 @@ function Footer() {
 
        
         <div>
-          <h3 className="text-lg font-semibold mb-3"> Opening Hours</h3>
+          <h3 className="text-lg font-semibold mb-3 text-amber-300"> Opening Hours</h3>
           <ul>
             <li>Mon–Fri: 8:00am – 9:00pm</li>
             <li>Saturday: 10:00am – 6:00pm</li>
